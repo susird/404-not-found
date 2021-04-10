@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+  .not-found {
+    height: 25px;
+    margin-left: 24px;
+    margin-top: 20px;
+    position: absolute;
+    width: 133px;
+  }
+
+  .letter-not-found {
+    font-family: 'Inconsolata', monospace;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 550;
+    height: 25px;
+    letter-spacing: -0.090em;
+    text-transform: uppercase;
+    width: 133px;
+  }
+
+  .scarecrow {
+    background: url("./scarecrow.png") center/cover no-repeat;
+    height: 220.35px;
+    margin-left: 44px;
+    margin-top: 109px;
+    position: absolute;
+    width: 286.83px;
+  }
+
+  .bad-news-title {
+    font-family: Space Mono;
+    height: 142px;
+    margin-left: 24px; 
+    margin-top: 407px;
+    position: absolute;
+    width: 350px;
+  }
+
+  .bad-news{
+    color: #333333;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: -0.035em;
+  }
+
+  .phar-info {
+    font-family: Space Mono;
+    height: 81px;
+    margin-left: 23px;
+    margin-top: 579px;
+    position: absolute;
+    width: 328px;
+  }
+
+  .information {
+    color: #4F4F4F;
+    font-size: 18px;
+    letter-spacing: -0.035em;
+  }
+
+  .button {
+    background:  #333333;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: Space Mono;
+    height: 68px;
+    margin-left: 24px;
+    line-height: 4.5em;
+    margin-top: 726px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 216px;
+  }
+
+  .credit-creator {
+    color: #BDBDBD;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    height: 17px;
+    margin-left: 46px;
+    margin-top: 908px;
+    padding: 0px 0px 24px 0px;
+    position: absolute;
+    width: 287px;
+  }
+
+  @media (min-width: 960px) {
+  .not-found {
+    margin-left: 77px;
+    margin-top: 40px;
+  }
+
+  .letter-not-found { 
+    font-size: 24px;
+  }
+
+  .scarecrow {
+    background: url("./scarecrow.png") center/cover no-repeat;
+    height: 447.43px;
+    margin-left: 77px;
+    margin-top: 265px;
+    width: 539.22px;
+  }
+
+  .bad-news {
+    font-size: 64px;
+  }
+
+  .bad-news-title {
+    font-family: Space Mono;
+    height: 190px;
+    margin-left: 735px;
+    margin-top: 265px;
+    width: 586px;
+  }
+
+  .phar-info {
+    height: 108px;
+    margin-left: 736px;
+    margin-top: 491px;
+    width: 381px;
+  }
+
+  .information {
+    font-size: 24px;
+  }
+
+  .button {
+    margin-left: 740px;
+    margin-top: 663px;
+  }
+
+  .credit-creator { 
+    margin-left: 577px;
+    margin-top: 1039px;
+  }
+  
+  }

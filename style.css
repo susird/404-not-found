@@ -7,48 +7,52 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding-bottom: 155px;
+  padding: 20px;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
 }
 
 .child-1-container {
-  padding: 20px 0px 50px 24px;
   font-family: 'Inconsolata';
 }
 
 .title-not-found {
+  font-family: 'Inconsolata';
   font-size: 18px;
   font-weight: 550;
   letter-spacing: -1.44px;
+  margin-bottom: 64px;
   text-transform: uppercase;
-  padding-bottom: 64px;
 }
 
 .scarecrow-img {
-  background: url("./scarecrow.png") center/cover no-repeat;
   height: 238px;
+  margin-bottom: 60px;
   width: 288px;
 }
 
-.child-2-container {
-  font-family: Space Mono;
+.article-container {
   display: flex;
   flex-direction: column;
-  padding: 60px 0px 0px 24px;
+  font-family: Space Mono;
 }
 
 .bad-news-title {
   color: #333333;
-  font-size: 43px;
-  font-weight: bold;
+  font-size: 46px;
+  font-weight: 700;
   letter-spacing: -0.56px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .info-to-user {
   color: #4F4F4F;
   font-size: 18px;
   letter-spacing: -0.56px;
-  padding-bottom: 66px;
+  margin-bottom: 66px;
 }
 
 .button {
@@ -65,40 +69,36 @@
 }
 
 @media (min-width: 960px) {
-
   .container {
-    flex-direction: row;
-    padding-bottom: 349px;
-  }
-
-  .child-1-container {
-    padding: 40px 0px 0px 77px;
+    padding: 40px 144px 0px 77px;
   }
 
   .title-not-found {
     font-size: 24px;
+    margin-bottom: 100px;
   }
 
   .scarecrow-img {
-    height: 447px;
-    width: 539px;
+    flex: 1;
+    height: auto;
+    margin-right: 119px;
   }
 
-  .child-2-container {
-    font-family: Space Mono;
-    flex-direction: column;
-    padding: 265px 0px 0px 119px;
+  .article-container {
+    flex-direction: row;
+  }
+
+  .article {
+    flex: 1;
   }
 
   .bad-news-title {
     font-size: 64px;
     width: 586px;
-    padding-bottom: 36px;
   }
 
   .info-to-user {
     font-size: 24px;
     width: 381px;
-    padding-bottom: 64px;
   }
 }
